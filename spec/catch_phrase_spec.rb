@@ -6,3 +6,5 @@ describe "#catch_phrase" do
     expect{catch_phrase(phrase)}.to output("It's-a me, Mario!\n").to_stdout
   end
 end
+
+#comment
