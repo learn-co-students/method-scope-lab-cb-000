@@ -1,0 +1,25 @@
+
+#catch_phrase
+  puts out a catch phrase
+
+#rescue_princess_peach
+  outputs a message and sets a variable, status, that is not available outside of this method (FAILED - 1)
+
+Failures:
+
+  1) #rescue_princess_peach outputs a message and sets a variable, status, that is not available outside of this method
+     Failure/Error: puts "Hooray! Mario has #{status} Princess Peach."
+
+     NameError:
+       undefined local variable or method `status' for #<RSpec::ExampleGroups::RescuePrincessPeach:0x0000000232feb8>
+     # ./lib/rescue_princess_peach.rb:3:in `rescue_princess_peach'
+     # ./spec/rescue_princess_peach_spec.rb:5:in `block (3 levels) in <top (required)>'
+     # ./spec/rescue_princess_peach_spec.rb:5:in `block (2 levels) in <top (required)>'
+
+Finished in 0.00446 seconds (files took 0.46251 seconds to load)
+2 examples, 1 failure
+
+Failed examples:
+
+rspec ./spec/rescue_princess_peach_spec.rb:4 # #rescue_princess_peach outputs a message and sets a variable, status, that is not available outside of this method
+
